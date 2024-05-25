@@ -1,0 +1,61 @@
+
+  @import "main.css";
+  nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding: 0 4%;align-items: center;
+    }
+
+.word{
+    color: royalblue;
+    font-weight: bold;
+}
+.design{
+    color: #2196F3;
+    font-weight: bold;
+}
+footer{
+    color:#aaa8a8;
+    background-color: #f2f2f266;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px; 
+    border-width: 2px 0 0 0 ;
+    border-color: #ccc;
+    border-style:solid;
+    margin: -6px 1.5%;
+}
+.nov{
+    color:#797676;
+}
+a{
+    color:royalblue;
+}
+header a{
+    color:black;
+}
+button{
+    background-color: #521a60;
+    border-radius: 5px;
+}
+figure{
+    margin-top: -60px;
+    margin-left: 48%;}
+@media(max-width:600px) {
+        figure{
+        margin-top: 23px;
+        margin-left: 13%;}}
+@media(max-width:400px) {
+    .main{
+            
+            grid-template-columns: 100% ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-gap:2.5em 1.5em;
+        }
+    figure{
+            margin-top: 12px;
+            margin-left: 12%;}
+    }

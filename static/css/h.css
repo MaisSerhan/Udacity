@@ -1,0 +1,21 @@
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(65, 64, 64);
+}
+h2{
+    font-size: 2.5em;
+    line-height: 1px;
+}
+
+h3{
+    font-size: 2em;
+    line-height: 1px;
+}
+h4{
+    font-size:large;
+    margin: 10px 3px -18px
+}
+h5{
+    margin: 19px 0px 0;
+}
