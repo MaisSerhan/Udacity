@@ -1,80 +1,138 @@
 <!DOCTYPE html>
 <html>
    <head>
-    <link href="static/css/index.css" type="text/css" rel="stylesheet" />
-    <title>Blog Title</title>
+    <link href="static/css/index2.css" type="text/css" rel="stylesheet" />
+    <title>Mais Project </title>
    </head>   
    <body>
     <header id="hd">
-        <nav>
-        <a href="#subscribe"><p>Subscribe</p></a>
-        <h1>Blog Title</h1>
-        <a href="#search"><img src="https://t3.ftcdn.net/jpg/05/99/84/86/360_F_599848646_MdK7wVDJQZygObyKEahVkOuhh0IGdTt3.jpg" alt="A smiling Labrador Retriever"   width="50px"  height="50px" id="Search"/> </a>
-    </nav>
-  </header> 
-    <section class="main">
-        <article >
-            <p class="word">World</p>
-            <h2>Example Blog Post</h2> 
-            <p class="nov">Nov 12</p>
-            <p>This Card represents an example blog post.</p>
-           <button> <a href="pages/blogPost.html" rel="noopener"> Continue reading</a></button>
-           <figure><img src="https://img.freepik.com/premium-vector/book-keep-calm-read-books-lettering-with-open-book-hearts-sketch-calligraphy-handwritten_484720-7111.jpg" alt="A smiling Labrador Retriever"      width="100px"  height="100px" id="" />
-            <figcaption>Continue reading</figcaption>
-             </figure>
+        <img src="photo/wihte.png" alt="A smiling Labrador Retriever"   width="100px"  height="100%" id="logo"/>
+        <nav id="nav">
+            <ul>
+                <li id="page"><a href="pages/index1.html">Home</a></li>
+                <li id="about"><a href="https://portfolio-websit-sand.vercel.app/">About</a></li>
+                <li id="hopes">Interested</li>
+                <li id="sch">Search</li>
+                <li><img src="https://banner2.cleanpng.com/20180623/rxj/kisspng-computer-icons-desktop-wallpaper-search-box-materi-verification-5b2e87fc57ea79.6293592815297761243601.jpg" alt="A smiling Labrador Retriever"   width="20px"  height="20px" id="Search"/></li>
+            </ul>
+        </nav>
+    </header> 
+
+<aside id="sd">
+    <h1>hoppies</h1>
+    <ol>
+   <li> Interface design</li>
+   <li>Front end</li>
+   <li>java & data structures</li>
+   <li>Problem solve</li>
+   <li>Art</li></ol>
+
+ <h1>languages</h1>
+   <ol>
+    <li>English</li>
+    <li>Arabic</li>
+   </ol>
+<h1>Skills</h1>
+    <ol>
+   <li>c++ and problem solve</li>
+   <li>java & problem solve</li>
+   <li>java & data structures</li>
+   <li> HTMl5 & Css</li>
+   <li>design</li></ol>
+
+<h1>education</h1>
+    <ul>
+   <li> 2021       start study in PTUK CSE</li>
+   </ol>
+   <table>
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>PTUK</td>
+            <td>1930</td>
+        </tr>
+    </tbody>
+</table>
+
+</aside>
+
+  <section id="main">
+        <section class="about">
+         <article>
+          <!---  <img src="photo/girl.jpg" alt="A smiling Labrador Retriever"   width="100px"  height="100%" id="logo"/>-->
+            <video width="100px" height="200px" controls loop autoplay poster="photo/girl.jpg">
+                <source src="photo/vidio.mp4" type="video/mp4">
+              </video>
+            <h2>ABOUT ME</h2> 
+            <p>My name is Mays Anwar Sarhan, I specialize in computer systems engineering, I study at Palestine Technical University, Kadoorie.
+                I am interested in everything related to art, and I see things with an artistic sense. I try to combine my inclinations with what
+                I have learned. So I try to combine drawing, design and programming. When I started learning Frontend, I felt like I found myself
+                and defined my goals and direction. I try to learn new things in my field, whether the web, solving problems, or creating new systems,
+                and meeting people in the same field. Special thanks to Udacity for giving me this opportunity in this training</p>
          </article>
-        <article >
-            <p class="design">Design</p>
-            <h2>Post title</h2> 
-            <p class="nov">Nov 11</p>
-            <p>This is a wider card with supporting text below as a netural lead-in to additional content.</p>
-            <button> <a href="pages/blogPost.html" rel="noopener"> Continue reading</a></button>
-            <figure><img src="https://img.freepik.com/premium-vector/book-keep-calm-read-books-lettering-with-open-book-hearts-sketch-calligraphy-handwritten_484720-7111.jpg" alt="A smiling Labrador Retriever"      width="100px"  height="100px" id="" />
-                <figcaption>Continue reading</figcaption>
-                 </figure> </article>
-        <article >
-            <p class="word">World</p>
-            <h2>Example Blog Post</h2> 
-            <p class="nov">Nov 12</p>
-            <p>This Card represents an example blog post.</p>
-            <button> <a href="pages/blogPost.html" rel="noopener"> Continue reading</a></button>
-            <figure><img src="https://img.freepik.com/premium-vector/book-keep-calm-read-books-lettering-with-open-book-hearts-sketch-calligraphy-handwritten_484720-7111.jpg" alt="A smiling Labrador Retriever"      width="100px"  height="100px" id="" />
-                <figcaption>Continue reading</figcaption>
-                 </figure>
+       </section>
+       <section class="interested">
+        <article class="program">
+            <h1>programming</h1> 
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                These are the most prominent programming languages that you have learned and are interested in. Which languages have you learned or are interested in?            </blockquote>
+            <span> <label for="html">HTML</label>  <input type="checkbox" id="html" /></span>
+            <span> <label for="CSS">CSS</label>  <input type="checkbox" id="CSS" /></span>
+            <span> <label for="C++">C++</label>  <input type="checkbox" id="C++" /></span>
+            <span> <label for="Java">Java</label>  <input type="checkbox" id="Java" /></span>
         </article>
-        <article >
-            <p class="design">Design</p>
-            <h2>Post title</h2> 
-            <p class="nov">Nov 11</p>
-            <p>This is a wider card with supporting text below as a netural lead-in to additional content.</p>
-            <button> <a href="pages/blogPost.html" rel="noopener"> Continue reading</a></button>
-            <figure><img src="https://img.freepik.com/premium-vector/book-keep-calm-read-books-lettering-with-open-book-hearts-sketch-calligraphy-handwritten_484720-7111.jpg" alt="A smiling Labrador Retriever"      width="100px"  height="100px" id="" />
-                <figcaption>Continue reading</figcaption>
-                 </figure>
+        
+        <h1 class="h1">animal</h1> 
+        <article class="animal">
+            <p>I am interested in intelligent animals through which it is possible to extract and connect some engineering principles, 
+                and through my knowledge, these were the most prominent animals through which I extracted some engineering principles.</p>
+                <img src="https://static.scientificamerican.com/sciam/cache/file/AB921605-B94F-4D2A-A1798DD43488550D_source.jpg" alt="A smiling Labrador Retriever"   width="100px"  height="100%" id=""/>
+                <img src="https://www.marinemammalcenter.org/storage/app/uploads/public/d10/5f0/4cd/thumb__1600_0_0_0_crop.jpg" alt="A smiling Labrador Retriever"   width="100px"  height="100%" id=""/>
+                <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/frog-2_ver_1.jpg" alt="A smiling Labrador Retriever"   width="100px"  height="100%" id=""/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/EasternGraySquirrel_GAm.jpg" alt="A smiling Labrador Retriever"   width="100px"  height="100%" id=""/>
+                
+                <h2>Octopus </h2>
+                <h2>Dolphins </h2>
+                <h2>Frogs</h2>
+                <h2>Squirrels</h2><br>
+             <p>Which one was the most exciting for you?</p>
+            <select id="animal-select">
+                <option value="Octopus">Octopus</option>
+                <option value="Dolphins">Dolphins</option>
+                <option value="Frogs">Frogs</option>
+                <option value="Squirrels">Squirrels</option>
+                <option value="Bess">Bee</option>
+              </select>        
         </article>
-        <article >
-            <p class="word">World</p>
-            <h2 class="nov">Example Blog Post</h2> 
-            <p>Nov 12</p>
-            <p>This Card represents an example blog post.</p>
-            <button> <a href="pages/blogPost.html" rel="noopener"> Continue reading</a></button>
-            <figure><img src="https://img.freepik.com/premium-vector/book-keep-calm-read-books-lettering-with-open-book-hearts-sketch-calligraphy-handwritten_484720-7111.jpg" alt="A smiling Labrador Retriever"      width="100px"  height="100px" id="" />
-                <figcaption>Continue reading</figcaption>
-                 </figure>
-        </article>
-        <article >
-            <p class="design">Design</p>
-            <h2>Post title</h2> 
-            <p class="nov">Nov 11</p>
-            <p>This is a wider card with supporting text below as a netural lead-in to additional content.</p>
-            <button> <a href="pages/blogPost.html" rel="noopener"> Continue reading</a></button>
-            <figure><img src="https://img.freepik.com/premium-vector/book-keep-calm-read-books-lettering-with-open-book-hearts-sketch-calligraphy-handwritten_484720-7111.jpg" alt="A smiling Labrador Retriever"      width="100px"  height="100px" id="" />
-                <figcaption>Continue reading</figcaption>
-                 </figure>
-        </article>
+      </section>
+      <textarea id="learn" name="learn" rows="5" cols="100">
+        Give me advice...
+        </textarea>
+        <a href="pages/index1.html">blog title</a>
     </section>
-   <footer>
-        <p>Blog template bulit for <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" rel="noopener" target="_blank">Bootstrap</a></p>
-       
-        <a href="pages/designSystem.html" rel="noopener">See Design System</a>
-    </footer>
+  
+    <footer id="ft"><div><a href="https://learn.udacity.com/" rel="noopener" target="_blank">Udacity</a>
+                    <a href="https://Google.com" rel="noopener" target="_blank">Google</a>
+                    <a href="https://spark.ngo/ar/apply-now-palestine-launchpad-with-google/" rel="noopener" target="_blank">Spark</a>
+                    <a href="https://spark.ngo/ar/apply-now-palestine-launchpad-with-google/" rel="noopener" target="_blank">palestine-launchpad</a>
+                    <a href="https://thelabradorclub.com" rel="noopener" target="_blank">Mais</a></div>
+                    <div>connect to me</div>
+                    <div>
+                    <a href="mailto:maisserhan09@gmail.com" rel="noopener" target="_blank"><img src="https://imaginethatcreative.net/blog/wp-content/uploads/2023/06/2250206.png" alt="A smiling Labrador Retriever"   width="30px"  height="30px" id=""/></a>
+                    <a href="https://github.com/MaisSerhan" rel="noopener" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="A smiling Labrador Retriever"   width="30px"  height="30px" id=""/></a>
+                    <a href="https://codeforces.com/profile/maisserhan09" rel="noopener" target="_blank"><img src="https://store-images.s-microsoft.com/image/apps.48094.14504742535903781.aedbca21-113a-48f4-b001-4204e73b22fc.503f883f-8339-4dc5-8609-81713a59281f" alt="A smiling Labrador Retriever"   width="30px"  height="30px" id=""/></a>
+                    <a href="https://www.linkedin.com/in/mais-anwer/" rel="noopener" target="_blank"><img src="https://portfolio-websit-sand.vercel.app/photo/5296501_linkedin_network_linkedin%20logo_icon.png" alt="A smiling Labrador Retriever"   width="25px"  height="25px" id=""/></div>
+                </footer>
+    
+
+  
+    
+    
+
+  </body>
+</html>
